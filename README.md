@@ -28,7 +28,7 @@ The prompt instructs the model to only report what it actually fetched. It canno
 
 ## Credits
 
-This started from a public SEO audit skill we downloaded in 2026. We rebuilt it for contractor websites: rewrote the checks in plain English, reorganized it into three passes, added local SEO, review, brand, and AI-search checks, and added the scoring rubric we use internally. Original source: {{ORIGINAL_SOURCE}}.
+This started as the `seo-audit` skill from Corey Haines' open-source [marketingskills](https://github.com/coreyhaines31/marketingskills) collection, which we installed in 2026 and ran for a few months. What is here now is a rewrite: the checks are reorganized into three passes, written in plain English for contractors instead of SaaS marketers, and extended with local SEO, review, brand, competitor, and AI-search checks that the original did not cover. The scoring rubric and live-data steps we use internally are not included. Thanks to Corey for publishing the starting point.
 
 The full version we run for clients pulls live Search Console, Analytics, and Ahrefs data and produces a 30/60/90 day plan. If you want that run on your site, [request a free audit](https://baadigi.com/audit).
 
